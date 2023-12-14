@@ -1,0 +1,205 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    /*Fonte importada do Google Fonts*/
+}
+
+
+body {
+    background: #F7FFF7;
+    margin: 0 0 0;
+    min-height: 100vh;
+    /*vh é melhor caso for responsivo,diferentes tamanhos e etc*/
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(44, 66, 123);
+    /*O mais proximo possivel do "azul?" do logo*/
+    text-align: left;
+    padding: 10px;
+}
+
+h1 {
+    color: #F7FFF7;
+    font-family: 'Rubik', sans-serif;
+    /*H1 e H2 ambos na mesma fonte e cor*/
+    text-align: center;
+}
+
+h2 {
+    color: #F7FFF7;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.nav {
+    /*Todo o conteúdo da nav,atenção ao (li a e etc)*/
+    width: 100%;
+    background-color: #F7FFF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.escolhas {
+    /*Entre,nossos automoveis e etc*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.escolhas li {
+    /*Todo o conteúdo de li dentro de escolhas*/
+    margin: 0 15px;
+}
+
+.escolhas li a {
+    color: rgb(190, 58, 52);
+}
+
+#vermelhoserv {
+    color: rgb(190, 58, 52);
+}
+
+.redes {
+    background-color: #F7FFF7;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-transform: uppercase;
+    list-style: none;
+    /*Remover ponto da lista*/
+}
+
+li i {
+    /*Todo o conteúdo de i dentro da li*/
+    margin-right: 10px;
+    /* margem à direita de 10px***/
+}
+
+
+li a {
+    /*Todo o conteúdo de a dentro da li*/
+    color: #000000;
+    text-decoration: none;
+    /* Tirar o sublinhado dos a */
+}
+
+footer {
+    margin-top: auto;
+    background-color: #F7FFF7;
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    color: rgb(44, 66, 123);
+    /*O mais proximo possivel do "azul?" do logo*/
+}
+
+
+footer p {
+    text-align: center;
+}
+
+.suporte,
+/*Lista de suporte e contato*/
+.contato {
+    list-style-type: none;
+    padding: 0;
+}
+
+.suporte li,
+.contato li {
+    /*Todo o conteudo de li dentro de suporte,seletor por espaço*/
+    margin: 5px 0;
+    list-style-type: none;
+    /*Remover as bolinhas da lista*/
+}
+
+
+
+.contato-suporte {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.testes {
+    text-align: center;
+    /* Centralizar a logo */
+}
+
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+
+/*Media*/
+
+@media (max-width: 450px) {
+
+    /*Para celulares padrão*/
+    body {
+        font-size: 24px;
+    }
+
+
+
+
+}
+
+@media (width: 375px) {
+
+    /*Iphone SE*/
+    body {
+        font-size: 16px;
+
+    }
+
+    h1 {
+        color: lightgray;
+    }
+
+    .escolhas li {
+        margin: 0 12px;
+        /* Menor que 09px ele "come" o conteudo da lista. 0 é dá margem superior e infeior,12 esquerda e direita*/
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*Para tablet*/
+    h1 {
+        font-size: 22px;
+
+    }
+
+
+
+}
+
+/*Fim Media*/

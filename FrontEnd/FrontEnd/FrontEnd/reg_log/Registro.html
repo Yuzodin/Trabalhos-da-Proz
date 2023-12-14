@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form_reg">
+        <form action="">
+            <div class="titulo">
+                <h2>Informações para acesso ao site</h2>
+                <div>
+                    <a href="Login.html" class="botao">Logar</a>
+                </div>
+                <div id="subtitulo">
+                    <p>Campos assinalados com <span>*</span> são de preenchimento obrigatório.</p><br>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="user">Criar nome de usuário para acesso ao site <span>*</span></label>
+                    <input type="text" name="user" id="user"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail <span>*</span></label>
+                    <input type="email" name="email" id="email"  class="input">
+                </div>
+
+                <div class="input-box">
+                    <label for="confirm">Confirmação de e-mail <span>*</span></label>
+                    <input type="email" name="confirm" id="confirm"  class="input">
+                </div>
+                <div>
+                    <div class="input-box">
+                    <label for="password">Senha <span>*</span></label>
+                    <input type="password" name="password" id="password"  class="input">
+                </div>
+                <div class="input-box">
+                    <label>Confirmação de senha <span>*</span></label>
+                    <input type="password" name="confirm_password" id="confirm_password"  class="input">
+                </div>
+            </div>
+
+            <div class="titulo">
+                <h2>Informações pessoais</h2><br><br>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="fistname">Primeiro nome<span>*</span><label>
+                    <input type="text" name="fistname" id="fistname"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="lastname">Sobrenome <span>*</span></label>
+                    <input type="text" name="lastname" id="lastname"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="date">Data de nascimento<span>*</span><label>
+                    <input type="date" name="date" id="date"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="gender">Gênero <span>*</span></label>
+                    <select name="gender" id="gender">
+                        <option value="">Selecione</option>
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="n">Prefiro não informar</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="est">Estado Civil <span>*</span></label>
+                    <select name="est" id="est">
+                        <option value="">Selecione</option>
+                        <option value="solt">Solteiro</option>
+                        <option value="cas">Casado</option>
+                        <option value="sep">Separado</option>
+                        <option value="divo">Divorciado</option>
+                        <option value="viu">Viúvo</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="cpf">CPF <span>*</span></label>
+                    <input type="text" name="cpf" id="cpf"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="rg">RG <span>*</span></label>
+                    <input type="text" name="rg" id="rg"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="prof">Profissão <span>*</span></label>
+                    <input type="text" name="prof" id="prof"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="mother_name">Nome da Mãe <span>*</span></label>
+                    <input type="text" name="mother_name" id="mother_name"  class="input">
+                </div>
+            </div>
+
+            <div class="titulo">
+                <h2>Endereço residencial</h2><br><br>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="cep">CEP <span>*</span></label>
+                    <input type="text" name="cep" id="cep"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="rua">Rua <span>*</span></label>
+                    <input type="text" name="rua" id="rua"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="number">Numero <span>*</span></label>
+                    <input type="text" name="number" id="number"  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="comp">Complemento <span>*</span> </label>
+                    <input type="text" name="comp" id=""  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="bairro">Bairro <span>*</span></label>
+                    <input type="text" name="bairro" id=""  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="city">Cidade <span>*</span></label>
+                    <input type="text" name="city" id=""  class="input">
+                </div>
+                <div class="input-box">
+                    <label for="uf">UF <span>*</span></label>
+                    <input type="text" name="uf" id="uf" class="input">
+                </div>
+                <div class="input-box">
+                    <label for="tel">Celular <span>*</span></label>
+                    <input type="text" name="cel" id=""  class="input">
+                </div>
+            </div>
+
+            <div class="input-checkbox">
+                <div>
+                    <input type="checkbox" name="" id="" checked> Desejo receber informativos por e-mail da Doc's Garage e de seus parceiros.
+                </div>
+                <div>
+                    <input type="checkbox" name="" id=""> Aceito os<strong> termos para criação da conta</strong> e participação nos leilões e estou de acordo com a <strong>Política de Privacidade</strong>.
+                </div>
+            </div>
+            <br>
+            <p><a href="Login.html" class="botao_reg">Confirmar</a></p>
+        </form>
+    </div>
+</body>
+</html>
