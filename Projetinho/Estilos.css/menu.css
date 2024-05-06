@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --var1: #176635;
+    --var2: #11B26F;
+    --var3: #661404;
+    --fonte1: "Passion One", cursive;
+    --fonte2: "Sriracha", cursive;
+}
+.container {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.pizza {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px 5px;
+    background-color: beige;
+}
+
+.pizza img {
+    float: left;
+    margin-right: 20px;
+    max-width: 400px;
+}
+
+.pizza-details {
+    padding: 20px;
+}
+
+.pizza h4 {
+    font-family: "Cairo Play", sans-serif;
+    font-size: 1.7em;
+    color: var(--var3);
+}
+
+.info  {
+    margin: 5px 0;
+    color: var(--var1);
+    font-size: 1.3em;
+    font-family: var(--fonte2);
+}
+
+.price  {
+    font-weight: bolder;
+    color: #ff6600;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: var(--fonte2);
+}
+.pricefam{
+    font-weight: bolder;
+    color: #ff6600;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: var(--fonte2);
+}
+.compra{
+    background-color: #ff6600;
+    color: #fff;
+    font-family: "Cairo Play", sans-serif;
+    font-size: 1.3em;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 210px;
+}
+.pizza-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.price, .pricefam {
+    margin-right: 10px; 
+}
+.outro{
+    text-decoration: none;
+    display: inline-block;
+}
