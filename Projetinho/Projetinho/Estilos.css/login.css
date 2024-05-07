@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --var1: #176635;
+    --var2: #11B26F;
+    --var3: #661404;
+    --fonte1: "Passion One", cursive;
+    --fonte2: "Sriracha", cursive;
+}
+.formulario{
+    background-color: beige;
+    height: 500px;
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+h5{
+    font-family: "Cairo Play", sans-serif;
+    font-size: 3.0em;
+    color: var(--var3);
+    text-align: center;
+}
+#subt{
+    text-align: center;
+    color: var(--var3);
+    font-size: 1.3em;
+    font-family: var(--fonte2);
+    margin-bottom: 30px;
+}
+label{
+    font-family: "Cairo Play", sans-serif;;
+    color: var(--var3);
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+input{
+    padding: 15px;
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#butao{
+    margin-top: 15px;
+    width: 483px;
+    cursor: pointer;
+    background-color: #11B26F;
+    border: none;
+    font-family: "Cairo Play", sans-serif;
+    color: #fff;
+    border-radius: 5px;
+}
+#sengpt{
+    margin-left: 20px; 
+    text-decoration: none;
+    font-family: var(--fonte2);
+    color: var(--var3);
+}
+#sengpt:hover{
+    text-decoration: underline;
+}
+.novoformulario{
+    background-color: beige;
+    height: 500px;
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.novoinput{
+    padding: 10px;
+    width: 450px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: var(--var3);
+}
+abbr{
+    text-decoration: none;
+}
