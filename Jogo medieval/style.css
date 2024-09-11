@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://img.freepik.com/premium-photo/ai-generated-ai-generative-scary-evil-halloween-boo-horror-poison-swamp-valley-concept-graphic-art_1080685-3339.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(153, 255, 0);
+}
+
+h1 {
+    margin-top: 20px;
+    color: greenyellow;
+}
+
+#monstro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#monstro-imagem {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#monstro-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 90px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
